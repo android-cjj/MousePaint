@@ -9,3 +9,13 @@ apk下载地址：[Here](http://fir.im/cjjmouse)
 -------------------------------------
 
 
+thanks
+==================================
+[https://github.com/zzz40500/AndroidSweetSheet](https://github.com/zzz40500/AndroidSweetSheet)
+
+[https://github.com/drakeet/Meizhi](https://github.com/drakeet/Meizhi)
+
+[https://github.com/AlanCheen/PracticeDemo](https://github.com/AlanCheen/PracticeDemo)
+
+
+
