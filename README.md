@@ -7,6 +7,23 @@ apk下载地址：[Here](http://fir.im/cjjmouse)
 
 截图
 -------------------------------------
+![](https://github.com/android-cjj/MousePaint/blob/master/img/j0.png)
+![](https://github.com/android-cjj/MousePaint/blob/master/img/j1.png)
+
+![](https://github.com/android-cjj/MousePaint/blob/master/img/j2.png)
+![](https://github.com/android-cjj/MousePaint/blob/master/img/j3.png)
+
+![](https://github.com/android-cjj/MousePaint/blob/master/img/j4.png)
+![](https://github.com/android-cjj/MousePaint/blob/master/img/j5.png)
+
+![](https://github.com/android-cjj/MousePaint/blob/master/img/j6.png)
+![](https://github.com/android-cjj/MousePaint/blob/master/img/j7.png)
+
+![](https://github.com/android-cjj/MousePaint/blob/master/img/j8.png)
+![](https://github.com/android-cjj/MousePaint/blob/master/img/j9.png)
+
+![](https://github.com/android-cjj/MousePaint/blob/master/img/j10.png)
+![](https://github.com/android-cjj/MousePaint/blob/master/img/j11.png)
 
 
 thanks
