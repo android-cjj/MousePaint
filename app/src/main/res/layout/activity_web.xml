@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <!-- -->
+    <!--android:orientation="vertical">-->
+
+    <!--&lt;!&ndash;<include layout="@layout/toolbar_layout"/>&ndash;&gt;-->
+    <!--<com.cjj.mousepaint.customview.SwipebackLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/swipe_back"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!-->-->
+
+    <!--<TextView-->
+    <!--android:paddingTop="60dp"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:textColor="@color/black_2"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:drawableTop="@drawable/youhua"-->
+    <!--android:text="右\n滑\n返\n回"-->
+    <!--android:background="@color/material_orange"-->
+    <!--/>-->
+
+
+    <WebView
+        android:id="@+id/webView"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingTop="24dp"
+        android:scrollbarSize="3dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarThumbVertical="@color/material_orange"
+        android:scrollbars="vertical"/>
+
+
+
+</LinearLayout>

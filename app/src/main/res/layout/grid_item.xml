@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0.75dp">
+
+
+        <LinearLayout
+            android:id="@+id/ll_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/grid_item_bg"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--<ImageView-->
+                <!--android:id="@+id/iv_cover"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="130dp"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--/>-->
+
+                <com.cjj.mousepaint.customview.SimpleTagImageView
+                    android:id="@+id/iv_cover"
+                    xmlns:simple="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:scaleType="centerCrop"
+                    simple:simple_corner_distance="5dp"
+                    simple:simple_tag_background_color="@color/material_red"
+                    simple:simple_tag_enable="true"
+                    simple:simple_tag_orientation="left_top"
+                    simple:simple_tag_text="新"
+                    simple:simple_tag_textColor="@color/white"
+                    simple:simple_tag_textSize="10sp"
+                    simple:simple_tag_width="20dip"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/white"
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/title_LastChapter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/blue_bg"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:padding="4dp"
+                        android:singleLine="true"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <com.cjj.mousepaint.customview.FavorLayout
+                    android:id="@+id/favor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></com.cjj.mousepaint.customview.FavorLayout>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:tag="Hover"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tv_item_explain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="5"
+                android:paddingBottom="4dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="2dp"
+                android:paddingTop="2dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/tv_item_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/tv_item_subscribe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="4dp"
+                android:text="+订阅"
+                android:textColor="#ff5722"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

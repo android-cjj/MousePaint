@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/image_bottom_edge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/topic_bottom_edge_margin"
+        android:layout_marginRight="@dimen/topic_bottom_edge_margin"
+        android:background="@drawable/subject_bg"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/box_card"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="@dimen/card_margin"
+        android:background="@drawable/home_card_bg">
+
+        <RelativeLayout
+            android:id="@+id/box_title"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip">
+
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15.0dip"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:textColor="@color/black"
+                android:textSize="22.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/text_title"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_toRightOf="@id/text_title"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="@color/color_zhonghui"
+                android:textSize="16.0sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/image_cover"
+            android:layout_width="fill_parent"
+            android:layout_height="180.0dip"
+            android:layout_below="@id/box_title"
+            android:background="@color/backColor"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/text_bravos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/box_title"
+            android:layout_margin="5.0dip"
+            android:background="@drawable/card_flower_bg"
+            android:gravity="center_vertical"
+            android:textColor="@color/white" />
+
+        <com.cjj.mousepaint.customview.HtmlTextView
+            android:id="@+id/text_digest"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text_author"
+            android:layout_below="@+id/image_cover"
+            android:ellipsize="end"
+            android:lineSpacingMultiplier="1.25"
+            android:linksClickable="true"
+            android:paddingBottom="20.0dip"
+            android:paddingLeft="20.0dip"
+            android:paddingRight="20.0dip"
+            android:paddingTop="15.0dip"
+            android:textColor="@color/color_zhonghui"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:id="@+id/text_author"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:lines="1"
+            android:paddingBottom="15.0dip"
+            android:paddingLeft="20.0dip"
+            android:paddingRight="20.0dip"
+            android:textColor="@color/color_shenhui"
+            android:textSize="16.0sp" />
+    </RelativeLayout>
+</RelativeLayout>

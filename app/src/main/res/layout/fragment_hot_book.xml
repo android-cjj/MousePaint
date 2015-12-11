@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<com.cjj.mousepaint.customview.NormalListView
+    android:id="@+id/lv_hot"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="#dfdfdf"
+    android:dividerHeight="0.5dp"
+    android:listSelector="@color/tran">
+</com.cjj.mousepaint.customview.NormalListView>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_gravity="center"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+    </FrameLayout>
+
+

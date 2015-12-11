@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\googleDownloads\MousePaint\materialrefreshlibrary\src\main\res"><file path="D:\googleDownloads\MousePaint\materialrefreshlibrary\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="MaterialRefreshLayout">
+        <attr format="boolean" name="overlay"/>
+        <!-- style for MaterialWaveView  -->
+        <attr format="enum" name="wave_height_type">
+            <enum name="normal" value="0"/>
+            <enum name="higher" value="1"/>
+        </attr>
+        <attr format="color" name="wave_color"/>
+        <attr format="boolean" name="wave_show"/>
+        <!-- style for CircleProgressBar  -->
+        <attr format="reference" name="progress_colors"/>
+        <attr format="dimension" name="progress_stoke_width"/>
+        <attr format="color" name="progress_backgroud_color"/>
+        <attr format="boolean" name="progress_show_arrow"/>
+        <attr format="dimension" name="progress_arrow_width"/>
+        <attr format="dimension" name="progress_arrow_height"/>
+        <attr format="boolean" name="progress_show_circle_backgroud"/>
+        <attr format="integer" name="progress_value"/>
+        <attr format="integer" name="progress_max_value"/>
+        <attr format="dimension" name="progress_text_size"/>
+        <attr format="color" name="progress_text_color"/>
+        <attr format="enum" name="progress_text_visibility">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+        <attr format="enum" name="progress_size_type">
+            <enum name="normal" value="0"/>
+            <enum name="big" value="1"/>
+        </attr>
+        <attr format="boolean" name="isLoadMore"/>
+    </declare-styleable></file><file path="D:\googleDownloads\MousePaint\materialrefreshlibrary\src\main\res\values\attrs_circle_progressbar.xml" qualifiers=""><declare-styleable name="CircleProgressBar">
+        <attr format="dimension" name="mlpb_inner_radius"/>
+        <attr format="color" name="mlpb_background_color"/>
+        <attr format="color" name="mlpb_progress_color"/>
+        <attr format="dimension" name="mlpb_progress_stoke_width"/>
+        <attr format="boolean" name="mlpb_show_arrow"/>
+        <attr format="boolean" name="mlpb_enable_circle_background"/>
+        <attr format="dimension" name="mlpb_arrow_width"/>
+        <attr format="dimension" name="mlpb_arrow_height"/>
+
+        <attr format="integer" name="mlpb_progress"/>
+        <attr format="integer" name="mlpb_max"/>
+
+
+        <attr format="dimension" name="mlpb_progress_text_size"/>
+        <attr format="color" name="mlpb_progress_text_color"/>
+
+        <!--<attr name="mlpb_progress_text_offset" format="dimension"/>-->
+
+        <attr format="enum" name="mlpb_progress_text_visibility">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable></file><file path="D:\googleDownloads\MousePaint\materialrefreshlibrary\src\main\res\values\colors.xml" qualifiers=""><color name="material_blue">#ff03A9F4</color><color name="material_blue_light">#9003A9F4</color><color name="material_yellow">#ffFFEB3B</color><color name="material_green">#ff4CAF50</color><color name="material_blue_dark">#1976D2</color><color name="material_red">#ffF44336</color></file><file path="D:\googleDownloads\MousePaint\materialrefreshlibrary\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">BRLayoutLibrary</string><integer-array name="material_colors">
+        <item>@color/material_red</item>
+        <item>@color/material_green</item>
+        <item>@color/material_blue</item>
+        <item>@color/material_yellow</item>
+    </integer-array></file></source><source path="D:\googleDownloads\MousePaint\materialrefreshlibrary\build\generated\res\rs\release"/><source path="D:\googleDownloads\MousePaint\materialrefreshlibrary\build\generated\res\generated\release"/></dataSet><dataSet config="release"><source path="D:\googleDownloads\MousePaint\materialrefreshlibrary\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="MaterialRefreshLayout"><attr format="boolean" name="overlay"/><attr format="enum" name="wave_height_type"><enum name="normal" value="0"/><enum name="higher" value="1"/></attr><attr format="color" name="wave_color"/><attr format="boolean" name="wave_show"/><attr format="reference" name="progress_colors"/><attr format="dimension" name="progress_stoke_width"/><attr format="color" name="progress_backgroud_color"/><attr format="boolean" name="progress_show_arrow"/><attr format="dimension" name="progress_arrow_width"/><attr format="dimension" name="progress_arrow_height"/><attr format="boolean" name="progress_show_circle_backgroud"/><attr format="integer" name="progress_value"/><attr format="integer" name="progress_max_value"/><attr format="dimension" name="progress_text_size"/><attr format="color" name="progress_text_color"/><attr format="enum" name="progress_text_visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/></attr><attr format="enum" name="progress_size_type"><enum name="normal" value="0"/><enum name="big" value="1"/></attr><attr format="boolean" name="isLoadMore"/></declare-styleable><declare-styleable name="CircleProgressBar"><attr format="dimension" name="mlpb_inner_radius"/><attr format="color" name="mlpb_background_color"/><attr format="color" name="mlpb_progress_color"/><attr format="dimension" name="mlpb_progress_stoke_width"/><attr format="boolean" name="mlpb_show_arrow"/><attr format="boolean" name="mlpb_enable_circle_background"/><attr format="dimension" name="mlpb_arrow_width"/><attr format="dimension" name="mlpb_arrow_height"/><attr format="integer" name="mlpb_progress"/><attr format="integer" name="mlpb_max"/><attr format="dimension" name="mlpb_progress_text_size"/><attr format="color" name="mlpb_progress_text_color"/><attr format="enum" name="mlpb_progress_text_visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/></attr></declare-styleable></configuration></mergedItems></merger>

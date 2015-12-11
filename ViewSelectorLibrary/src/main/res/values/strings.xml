@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ViewSelectorLibrary</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">关于</string>
+    <string name="reload_msg">点击重新加载</string>
+    <string name="no_data">空空如也</string>
+    <string name="load_msg">加载中</string>
+</resources>

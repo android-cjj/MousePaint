@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">鼠绘漫画</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">关于</string>
+
+    <integer-array name="material_colors">
+        <item>@color/material_red</item>
+        <item>@color/brownness</item>
+        <item>@color/material_orange</item>
+    </integer-array>
+
+    <string name="about">关于</string>
+    <string name="introduce">组织介绍\n鼠绘漫画网是鼠绘汉化组的官方网站，组织前身为海贼王吧鼠绘汉化组。经过几年发展已经成为国内较为大型的汉化组。且整体水平优秀，是目前国内动漫类翻译爱好人员的最大集中地之一。
+与此同时，鼠绘汉化组还自费举办多项活动，深受漫迷的好评。除此之外，我们陆续制作推出自己的原创栏目《鼠绘SBS》、《七级符图》等。正努力从单纯的民间翻译组织过渡到民间动漫综合组织。\n\n原创漫画\n
+《汉化组的那点事》是国内首部以汉化组内部生活为题材的漫画，通过幽默的漫画形式让大家了解汉化中的一些趣事。但是由于作者极度崇拜富坚义博，目前该漫画已进入年刊制。\n\n鼠绘专栏\n
+《鼠绘SBS》是鼠绘君专门与读者们交流的一档栏目，采用幽默诙谐的方式回答读者关于动漫、生活、感情、工作等方面的提问。这里不是知心哥哥热线，这里只为让你坑爹的生活多一份逗比罢了。</string>
+    <string name="app_name_with_introduce">鼠绘漫画，良心出品</string>
+    <string name="developers">开发人员</string>
+    <string name="developer_contributor">Android Contributor</string>
+    <string name="developer_and_designer">主要 Android 开发 &amp; 设计</string>
+    <string name="developer_service">主要服务端开发</string>
+    <string name="open_source_lis">用到的开源库</string>
+    <string name="introduce_and_help">介绍与帮助</string>
+    <string name="thank">鸣谢</string>
+    <string name="github_url">https://github.com/drakeet/Meizhi\nhttps://github.com/zzz40500\nhttps://github.com/AlanCheen/PracticeDemo</string>
+    <string name="open_source_libraries_list"> com.android.support:appcompat-v7:23.0.1\ncom.android.support:design:23.0.1\ncom.android.support:cardview-v7:23.0.1\ncom.android.support:recyclerview-v7:23.0.1\ncom.jakewharton:butterknife:7.0.1
+        \ncom.nineoldandroids:library:2.4.0\nde.greenrobot:eventbus:2.4.0\ncom.umeng.analytics:analytics:latest.integration\nme.relex:circleindicator:1.1.5@aar\ncom.github.bumptech.glide:glide:3.6.1"</string>
+    <string name="title_activity_setting">设置</string>
+</resources>

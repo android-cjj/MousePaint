@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cjj.MaterialRefreshLayout
+    android:id="@+id/refreshlayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:wave_color="@color/window_background"
+    app:overlay="false"
+    app:progress_colors="@array/material_colors"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:paddingTop="4dp"
+        android:clipToPadding="false"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="6dp"
+        android:scrollbars="vertical"
+        android:scrollbarSize="4dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarThumbVertical="@color/material_orange"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</com.cjj.MaterialRefreshLayout>

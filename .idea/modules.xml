@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MousePaint.iml" filepath="$PROJECT_DIR$/MousePaint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewSelectorLibrary/ViewSelectorLibrary.iml" filepath="$PROJECT_DIR$/ViewSelectorLibrary/ViewSelectorLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animator/animator.iml" filepath="$PROJECT_DIR$/animator/animator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/http/http.iml" filepath="$PROJECT_DIR$/http/http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialrefreshlibrary/materialrefreshlibrary.iml" filepath="$PROJECT_DIR$/materialrefreshlibrary/materialrefreshlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sweetsheet/sweetsheet.iml" filepath="$PROJECT_DIR$/sweetsheet/sweetsheet.iml" />
+    </modules>
+  </component>
+</project>

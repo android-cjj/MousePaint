@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cjj.mousepaint" >
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- 手机震动权限-->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 允许查看当前网络状态-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <application
+        android:name=".MosuePaintAppication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/CJJTheme" >
+        <activity
+
+            android:name=".WelcomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".SwipeBackActivity"></activity>
+        <activity android:name=".RegisterActivity"
+            android:windowSoftInputMode="adjustPan|stateVisible"></activity>
+        <activity android:name=".WebActivity"/>
+
+        <activity android:name=".RecommendActivity"></activity>
+
+        <activity android:name=".WeekActivity"/>
+
+        <activity android:name=".SearchActivity"/>
+
+        <activity android:name=".DetialActivity"/>
+
+        <activity android:name=".LoginActivity"/>
+
+        <activity android:name=".AboutActivity"/>
+
+        <activity android:name=".SettingActivity"/>
+
+        <meta-data android:value="5652cf7567e58e6e0a0006ed" android:name="UMENG_APPKEY"></meta-data>
+
+        <meta-data android:value="fir" android:name="UMENG_CHANNEL"/>
+
+    </application>
+
+</manifest>
