@@ -30,6 +30,8 @@ thanks
 
 [https://github.com/AlanCheen/PracticeDemo](https://github.com/AlanCheen/PracticeDemo)
 
+[https://github.com/hongyangAndroid/ColorfulStatusBar](https://github.com/hongyangAndroid/ColorfulStatusBar)
+
 
 微博：
 ========================================
