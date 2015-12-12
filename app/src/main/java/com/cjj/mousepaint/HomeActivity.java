@@ -255,6 +255,13 @@ public class HomeActivity extends AppCompatActivity implements OnClickListener {
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
                         menuItem.setChecked(true);
                         mDrawerLayout.closeDrawers();
+
+                        // 关闭搜索框、选择器
+                        if (view_hide.isShown()) {
+                            view_hide.performClick();
+                        }
+                        closeMenu();
+
                         switch (menuItem.getItemId()) {
                             case R.id.nav_home:
                                 setTitle("最新漫画");
@@ -389,6 +396,7 @@ public class HomeActivity extends AppCompatActivity implements OnClickListener {
                 break;
 
             case R.id.view_hide:
+                edit_text_search.setText("");
                 iv_bottom_search.performClick();
                 break;
         }
@@ -550,8 +558,13 @@ public class HomeActivity extends AppCompatActivity implements OnClickListener {
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if ((keyCode == KeyEvent.KEYCODE_BACK)) {
-            showCloseDialog();
-            return false;
+            // 先隐藏搜索框
+            if (view_hide.isShown()) {
+                view_hide.performClick();
+            } else {
+                showCloseDialog();
+            }
+            return true;
         }else {
             return super.onKeyDown(keyCode, event);
         }
